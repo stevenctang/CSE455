@@ -73,9 +73,10 @@ class linkedlist {
 		void del() {
 			int count = 0, number, i;
 			node = node1 = node2 = first;
-			for(node = first; node != NULL; node = node->next)
+			for(node = first; node != NULL; node = node->next){
 				cout << "Enter value for the node:" << endl;
-			count++;
+				count++;
+			}
 			display();
 			cout << count << " nodes available here!" << endl;
 			cout << "Enter the node number which you want to delete:" << endl;
